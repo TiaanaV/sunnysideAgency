@@ -1,6 +1,56 @@
-.header {
-  background-image: url(images/desktop/image-header.jpg);
+* {
+  margin: 0 auto;
+  font-family: 'Barlow', sans-serif,'Fraunces', serif;
 }
+
+.header {
+  background: no-repeat center/100% url(images/desktop/image-header.jpg);
+  width: 100%;
+  height: 600px;
+}
+
 .header-logo {
-  background-color: hsl(212, 27%, 19%);
+  padding: 40px 20px;
+  position: absolute;
+}
+
+.header-navigation {
+ display: flex;
+ align-items: center;
+justify-content: flex-end;
+padding-top: 40px;
+margin-right:20px;
+}
+
+.header-navigation-item{
+  text-decoration: none;
+  color: white;
+  padding:10px 15px;
+  margin-right: 5px;
+}
+
+.header-title {
+display: block;
+margin:160px 0;
+text-align: center;
+color: white;
+font-family:'Fraunces', serif;
+font-weight: 600;
+font-size: 50px;
+
+}
+
+.header-title-arrow {
+  position: absolute;
+  top:245px;
+  left:550px
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
